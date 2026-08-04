@@ -1,0 +1,257 @@
+- generic [active] [ref=f38e1]:
+  - link "Перейти к содержимому" [ref=f38e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f38e3]:
+    - generic [ref=f38e4]:
+      - link "Стоматологическая студия «Покровка», на главную" [ref=f38e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f38e6]:
+          - generic [ref=f38e7]: ПОКРОВКА
+          - generic [ref=f38e8]: Стоматологическая студия
+      - navigation "Основная навигация" [ref=f38e9]:
+        - generic [ref=f38e10]:
+          - link "Услуги" [ref=f38e11] [cursor=pointer]:
+            - /url: /services/
+          - generic:
+            - list:
+              - listitem:
+                - link "Профилактика и гигиена":
+                  - /url: /services/profilaktika/
+              - listitem:
+                - link "Имплантация зубов":
+                  - /url: /services/implantaciya/
+              - listitem:
+                - link "Элайнеры":
+                  - /url: /services/elayneri/
+              - listitem:
+                - link "Эстетическая стоматология":
+                  - /url: /services/estetika/
+              - listitem:
+                - link "Лечение и реставрация":
+                  - /url: /services/lechenie/
+              - listitem:
+                - link "Седация и комфорт":
+                  - /url: /services/sedaciya/
+              - listitem:
+                - link "Все услуги →":
+                  - /url: /services/
+        - link "О клинике" [ref=f38e13] [cursor=pointer]:
+          - /url: /about/
+        - link "Пациентам" [ref=f38e15] [cursor=pointer]:
+          - /url: /patients/
+        - link "Контакты" [ref=f38e17] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=f38e18]:
+        - link "+7 (495) 120-14-80" [ref=f38e19] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - link "Записаться" [ref=f38e20] [cursor=pointer]:
+          - /url: /contact/
+  - main [ref=f38e22]:
+    - generic [ref=f38e23]:
+      - generic [ref=f38e24]: Услуги
+      - heading "Седация и комфорт" [level=1] [ref=f38e27]
+      - paragraph [ref=f38e29]: Для тех, кто откладывал это годами. Здесь об этом никто не скажет ни слова.
+    - img "Пустой кабинет с креслом и светильником, светлый деревянный пол" [ref=f38e32]
+    - paragraph [ref=f38e34]: Седация и комфорт · Покровский бульвар, 8
+    - region [ref=f38e35]:
+      - heading "Коротко об услуге" [level=2] [ref=f38e36]
+      - generic [ref=f38e37]:
+        - generic [ref=f38e38]:
+          - paragraph [ref=f38e40]: Бояться стоматолога нормально. Как правило, за таким страхом стоит конкретный случай в кресле много лет назад, и лучше всего он проходит, когда его принимают всерьёз, а не уговаривают не бояться.
+          - paragraph [ref=f38e42]: На практике это длинная первичная консультация, на которой ничего не делают, условный знак, которым вы в любую секунду всё останавливаете, и седация от закиси азота и таблеток до внутривенной, с анестезиологом в кабинете.
+          - paragraph [ref=f38e44]: "И простые вещи: без бодрого «да там ничего страшного», без нотаций о состоянии ваших зубов и без единой процедуры, начатой раньше, чем вы скажете, что готовы."
+        - generic [ref=f38e45]:
+          - heading "На практике" [level=3] [ref=f38e46]
+          - generic [ref=f38e47]:
+            - generic [ref=f38e48]:
+              - term [ref=f38e49]: Закись азота
+              - definition [ref=f38e50]: От 4 500 ₽, домой за рулём
+            - generic [ref=f38e51]:
+              - term [ref=f38e52]: Таблетки
+              - definition [ref=f38e53]: Нужен сопровождающий
+            - generic [ref=f38e54]:
+              - term [ref=f38e55]: Внутривенная
+              - definition [ref=f38e56]: С анестезиологом
+            - generic [ref=f38e57]:
+              - term [ref=f38e58]: Консультация
+              - definition [ref=f38e59]: Бесплатно, ничего не делаем
+          - paragraph [ref=f38e60]: Это время, которое мы закладываем в расписание, а не время, на которое надеемся. Там, где стоит диапазон, письменный план, с которым вы уйдёте, называет вашу цифру.
+          - link [ref=f38e62] [cursor=pointer]:
+            - /url: /contact/
+            - generic [ref=f38e64]:
+              - text: Записаться
+              - generic [ref=f38e65]: →
+          - paragraph [ref=f38e66]:
+            - text: Или позвоните по номеру
+            - link "+7 (495) 120-14-80" [ref=f38e67] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - text: и спросите, прежде чем на что-то записываться.
+    - region "Кому это нужно" [ref=f38e68]:
+      - generic [ref=f38e69]:
+        - generic [ref=f38e70]: Кому это нужно
+        - generic [ref=f38e72]:
+          - heading "С чем сюда приходят." [level=2] [ref=f38e74]
+          - paragraph [ref=f38e76]: "Здесь жалобы, а не разделы прайса: приходят обычно именно с ними. Если того, что привело вас, в списке нет, спросить всё равно стоит."
+      - list [ref=f38e77]:
+        - listitem [ref=f38e78]: Давний страх перед стоматологом
+        - listitem [ref=f38e79]: Сильный рвотный рефлекс
+        - listitem [ref=f38e80]: Местная анестезия плохо держит
+        - listitem [ref=f38e81]: Долгие или сложные приёмы
+        - listitem [ref=f38e82]: Чувствительность к звуку, свету, прикосновениям
+        - listitem [ref=f38e83]: Годы отложенного лечения, которые надо нагнать
+    - region "Как проходит приём" [ref=f38e84]:
+      - generic [ref=f38e85]:
+        - generic [ref=f38e86]: Как проходит приём
+        - generic [ref=f38e88]:
+          - heading "Что происходит и в каком порядке." [level=2] [ref=f38e90]
+          - paragraph [ref=f38e92]: Ничего не начинается, пока это не объяснили, и остановить нас можно в любую секунду. Так на каждом приёме, а не только на первом.
+      - list [ref=f38e93]:
+        - listitem [ref=f38e94]:
+          - generic [ref=f38e95]: "01"
+          - heading "Разговор" [level=3] [ref=f38e96]
+          - paragraph [ref=f38e97]: Первая встреча, на которой не происходит ничего, кроме разговора. Вы в своей одежде, кресло стоит вертикально.
+        - listitem [ref=f38e98]:
+          - generic [ref=f38e99]: "02"
+          - heading "Выбор" [level=3] [ref=f38e100]
+          - paragraph [ref=f38e101]: "Разбираем варианты: закись азота, таблетки, внутривенная седация. У каждого есть свои настоящие минусы, включая то, как пройдёт остаток дня."
+        - listitem [ref=f38e102]:
+          - generic [ref=f38e103]: "03"
+          - heading "Условный знак" [level=3] [ref=f38e104]
+          - paragraph [ref=f38e105]: Поднятая левая рука останавливает всё, сразу и каждый раз. Это не формальность, и мы это не обсуждаем.
+        - listitem [ref=f38e106]:
+          - generic [ref=f38e107]: "04"
+          - heading "Лечение" [level=3] [ref=f38e108]
+          - paragraph [ref=f38e109]: Во время седации идёт мониторинг пульсоксиметром. При внутривенной седации весь приём рядом находится отдельный анестезиолог.
+        - listitem [ref=f38e110]:
+          - generic [ref=f38e111]: "05"
+          - heading "Отдых" [level=3] [ref=f38e112]
+          - paragraph [ref=f38e113]: Вы отдыхаете в тихой комнате, пока не почувствуете себя уверенно. После всего, кроме закиси азота, нужно, чтобы вас отвезли домой.
+    - region "Вопросы" [ref=f38e114]:
+      - generic [ref=f38e115]:
+        - generic [ref=f38e116]: Вопросы
+        - generic [ref=f38e118]:
+          - heading "Те, что задают чаще всего." [level=2] [ref=f38e120]
+          - paragraph [ref=f38e122]: Собрали их здесь, чтобы они не съедали время приёма. Хотя переспросить в кабинете всё равно лучше, чем гадать.
+      - list [ref=f38e123]:
+        - listitem [ref=f38e124]:
+          - group [ref=f38e125]:
+            - heading "Я буду без сознания?" [level=3] [ref=f38e127] [cursor=pointer]
+        - listitem [ref=f38e131]:
+          - group [ref=f38e132]:
+            - heading "Седация безопасна?" [level=3] [ref=f38e134] [cursor=pointer]
+        - listitem [ref=f38e138]:
+          - group [ref=f38e139]:
+            - heading "Мне стыдно за состояние своих зубов." [level=3] [ref=f38e141] [cursor=pointer]
+    - region "Смотрите также" [ref=f38e145]:
+      - generic [ref=f38e146]:
+        - generic [ref=f38e147]: Смотрите также
+        - heading "Ещё три услуги из шести." [level=2] [ref=f38e151]
+      - list [ref=f38e152]:
+        - listitem [ref=f38e153]:
+          - link "Профилактика и гигиена" [ref=f38e154] [cursor=pointer]:
+            - /url: /services/profilaktika/
+            - generic [ref=f38e156]: →
+        - listitem [ref=f38e157]:
+          - link "Имплантация зубов" [ref=f38e158] [cursor=pointer]:
+            - /url: /services/implantaciya/
+            - generic [ref=f38e160]: →
+        - listitem [ref=f38e161]:
+          - link "Элайнеры" [ref=f38e162] [cursor=pointer]:
+            - /url: /services/elayneri/
+            - generic [ref=f38e164]: →
+      - paragraph [ref=f38e166]:
+        - link "Все шесть услуг" [ref=f38e167] [cursor=pointer]:
+          - /url: /services/
+        - text: "расписаны так же, как эта: сроки и всё, чем приходится жертвовать, вынесены на страницу, а не оставлены на разговор в кабинете."
+  - contentinfo [ref=f38e168]:
+    - generic [ref=f38e170]:
+      - generic [ref=f38e171]: Запись на приём
+      - generic [ref=f38e173]:
+        - heading "Первичная консультация это разговор, и больше ничего." [level=2] [ref=f38e175]
+        - generic [ref=f38e176]:
+          - paragraph [ref=f38e177]: Полтора часа, полный осмотр и письменный план, который вы забираете с собой и обдумываете без спешки. На лечение в тот же день не записываем, если вы сами не попросите.
+          - generic [ref=f38e178]:
+            - link [ref=f38e179] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=f38e181]:
+                - text: Записаться
+                - generic [ref=f38e182]: →
+            - link "+7 (495) 120-14-80" [ref=f38e183] [cursor=pointer]:
+              - /url: tel:+74951201480
+    - generic [ref=f38e186]:
+      - generic [ref=f38e187]:
+        - generic [ref=f38e188]:
+          - generic [ref=f38e189]: ПОКРОВКА
+          - paragraph [ref=f38e190]: Лечение, реставрация и имплантация зубов. Принимаем на Покровке с 2011 года.
+          - generic [ref=f38e191]: Покровский бульвар, 8строение 1, офис 3Москва, 109028
+          - generic [ref=f38e192]:
+            - link "+7 (495) 120-14-80" [ref=f38e193] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - link "info@pokrovka-clinic.ru" [ref=f38e194] [cursor=pointer]:
+              - /url: mailto:info@pokrovka-clinic.ru
+        - generic [ref=f38e195]:
+          - heading "Услуги" [level=2] [ref=f38e196]
+          - list [ref=f38e197]:
+            - listitem [ref=f38e198]:
+              - link "Профилактика и гигиена" [ref=f38e199] [cursor=pointer]:
+                - /url: /services/profilaktika/
+            - listitem [ref=f38e200]:
+              - link "Имплантация зубов" [ref=f38e201] [cursor=pointer]:
+                - /url: /services/implantaciya/
+            - listitem [ref=f38e202]:
+              - link "Элайнеры" [ref=f38e203] [cursor=pointer]:
+                - /url: /services/elayneri/
+            - listitem [ref=f38e204]:
+              - link "Эстетическая стоматология" [ref=f38e205] [cursor=pointer]:
+                - /url: /services/estetika/
+            - listitem [ref=f38e206]:
+              - link "Лечение и реставрация" [ref=f38e207] [cursor=pointer]:
+                - /url: /services/lechenie/
+            - listitem [ref=f38e208]:
+              - link "Седация и комфорт" [ref=f38e209] [cursor=pointer]:
+                - /url: /services/sedaciya/
+        - generic [ref=f38e210]:
+          - heading "Клиника" [level=2] [ref=f38e211]
+          - list [ref=f38e212]:
+            - listitem [ref=f38e213]:
+              - link "О клинике" [ref=f38e214] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=f38e215]:
+              - link "Новым пациентам" [ref=f38e216] [cursor=pointer]:
+                - /url: /patients/
+            - listitem [ref=f38e217]:
+              - link "ДМС и оплата" [ref=f38e218] [cursor=pointer]:
+                - /url: /patients/#insurance
+            - listitem [ref=f38e219]:
+              - link "Контакты и проезд" [ref=f38e220] [cursor=pointer]:
+                - /url: /contact/
+        - generic [ref=f38e221]:
+          - heading "Часы" [level=2] [ref=f38e222]
+          - generic [ref=f38e223]:
+            - generic [ref=f38e224]:
+              - term [ref=f38e225]: Понедельник-четверг
+              - definition [ref=f38e226]: 9:00-20:00
+            - generic [ref=f38e227]:
+              - term [ref=f38e228]: Пятница
+              - definition [ref=f38e229]: 9:00-18:00
+            - generic [ref=f38e230]:
+              - term [ref=f38e231]: Суббота
+              - definition [ref=f38e232]: По записи
+            - generic [ref=f38e233]:
+              - term [ref=f38e234]: Воскресенье
+              - definition [ref=f38e235]: Выходной
+          - paragraph [ref=f38e236]:
+            - text: "В нерабочие часы отвечает дежурный врач:"
+            - link "+7 (495) 120-14-81" [ref=f38e237] [cursor=pointer]:
+              - /url: tel:+74951201481
+      - generic [ref=f38e238]:
+        - paragraph [ref=f38e239]: © 2011-2026 ООО «Покровка Дентал»
+        - generic [ref=f38e240]:
+          - link "Telegram" [ref=f38e241] [cursor=pointer]:
+            - /url: https://t.me
+          - link "ВКонтакте" [ref=f38e242] [cursor=pointer]:
+            - /url: https://vk.com
+          - link "Яндекс Карты" [ref=f38e243] [cursor=pointer]:
+            - /url: https://yandex.ru/maps
+      - paragraph [ref=f38e244]: "Демонстрационный сайт. Стоматологическая студия «Покровка» не существует: название, адрес, номера телефонов, врачи и отзывы пациентов придуманы. Политика конфиденциальности, пользовательское соглашение, доступность в демоверсию не входят."
+  - alert [ref=f38e245]

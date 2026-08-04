@@ -1,0 +1,365 @@
+- generic [active] [ref=f34e1]:
+  - link "Перейти к содержимому" [ref=f34e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f34e3]:
+    - generic [ref=f34e4]:
+      - link "Стоматологическая студия «Покровка», на главную" [ref=f34e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f34e7]:
+          - generic [ref=f34e8]: ПОКРОВКА
+          - generic [ref=f34e9]: Стоматологическая студия
+      - navigation "Основная навигация" [ref=f34e10]:
+        - generic [ref=f34e11]:
+          - link "Услуги" [ref=f34e12] [cursor=pointer]:
+            - /url: /services
+          - generic:
+            - list:
+              - listitem:
+                - link "Профилактика и гигиена":
+                  - /url: /services/profilaktika
+              - listitem:
+                - link "Имплантация зубов":
+                  - /url: /services/implantaciya
+              - listitem:
+                - link "Элайнеры":
+                  - /url: /services/elayneri
+              - listitem:
+                - link "Эстетическая стоматология":
+                  - /url: /services/estetika
+              - listitem:
+                - link "Лечение и реставрация":
+                  - /url: /services/lechenie
+              - listitem:
+                - link "Седация и комфорт":
+                  - /url: /services/sedaciya
+              - listitem:
+                - link "Все услуги →":
+                  - /url: /services
+        - link "О клинике" [ref=f34e14] [cursor=pointer]:
+          - /url: /about
+        - link "Пациентам" [ref=f34e16] [cursor=pointer]:
+          - /url: /patients
+        - link "Контакты" [ref=f34e18] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f34e19]:
+        - link "+7 (495) 120-14-80" [ref=f34e20] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - link "Записаться" [ref=f34e21] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f34e23]:
+    - generic [ref=f34e24]:
+      - generic [ref=f34e25]:
+        - generic [ref=f34e26]:
+          - paragraph [ref=f34e27]: Москва · м. Чистые пруды · с 2011 года
+          - heading "Стоматология без спешки." [level=1] [ref=f34e28]:
+            - generic [ref=f34e29]: Стоматология
+            - generic [ref=f34e30]: без спешки.
+          - generic [ref=f34e31]:
+            - paragraph [ref=f34e32]: Приём гигиениста здесь длится час. Первичная консультация занимает полтора часа, и в ней не делают ничего, кроме осмотра и разговора. Всё остальное следует уже из этого.
+            - generic [ref=f34e33]:
+              - link [ref=f34e34] [cursor=pointer]:
+                - /url: /contact
+                - generic [ref=f34e36]:
+                  - text: Записаться
+                  - generic [ref=f34e37]: →
+              - link "+7 (495) 120-14-80" [ref=f34e38] [cursor=pointer]:
+                - /url: tel:+74951201480
+        - generic [ref=f34e41]:
+          - img "Светлые мягкие кресла у окна в зоне ожидания" [ref=f34e43]
+          - paragraph [ref=f34e44]: Зона ожидания · Покровский бульвар, 8
+      - generic [ref=f34e45]:
+        - generic [ref=f34e46]:
+          - term [ref=f34e47]: "2011"
+          - definition [ref=f34e48]: Год открытия клиники
+        - generic [ref=f34e49]:
+          - term [ref=f34e50]: "60"
+          - definition [ref=f34e51]: Минут в обычном приёме гигиениста
+        - generic [ref=f34e52]:
+          - term [ref=f34e53]: "3"
+          - definition [ref=f34e54]: Врача, и вы остаётесь у одного
+        - generic [ref=f34e55]:
+          - term [ref=f34e56]: 9 400
+          - definition [ref=f34e57]: Пациентов за всё время
+    - generic [ref=f34e58]:
+      - generic [ref=f34e60]:
+        - generic [ref=f34e61]: Подход
+        - generic [ref=f34e63]:
+          - heading "Почти всё, что отличает хорошую клинику, следует из того, сколько времени в ней отводят на приём." [level=2] [ref=f34e65]
+          - paragraph [ref=f34e67]: Спешка меняет не столько уровень лечения, сколько сами решения. Быстрый ответ, удаление вместо реставрации, то, что укладывается в отведённые полчаса.
+      - generic [ref=f34e68]:
+        - generic [ref=f34e69]:
+          - img "Кабинет, освещённый высоким окном" [ref=f34e71]
+          - paragraph [ref=f34e72]: Второй кабинет · Покровский бульвар, 8
+        - generic [ref=f34e73]:
+          - paragraph [ref=f34e75]: "«Покровку» открыла в 2011 году врач, у которой за плечами было девять лет сетевой практики: тридцать минут на приём гигиениста и пятнадцать на первичный осмотр. Замысел был простой. Делать ту же клиническую работу в том темпе, которого она требует, и посмотреть, что изменится."
+          - paragraph [ref=f34e77]: Меняется в основном диагностика. Проблемы находятся, пока они ещё настолько малы, что лечатся сменой техники чистки. А вопрос, с которым пациенты на самом деле пришли, звучит обычно минут через восемь после того, как их в другом месте уже проводили бы до двери.
+          - figure "Осипова Анна Ильинична · основатель" [ref=f34e79]:
+            - blockquote [ref=f34e80]: «Ещё никто не вернулся сказать спасибо за то, что я закончила пораньше».
+          - paragraph [ref=f34e83]:
+            - link "Подробнее о клинике" [ref=f34e84] [cursor=pointer]:
+              - /url: /about
+            - text: ": как всё начиналось, кто здесь работает и как устроено само место."
+    - generic [ref=f34e85]:
+      - generic [ref=f34e86]:
+        - generic [ref=f34e87]: Услуги
+        - generic [ref=f34e89]:
+          - heading "Шесть направлений и честное описание каждого." [level=2] [ref=f34e91]
+          - paragraph [ref=f34e93]: Общая стоматология, а вместе с ней хирургия и эстетика, которые клиники такого размера обычно передают коллегам. Если лечение вам не подходит, мы скажем об этом до записи, а не после.
+      - generic [ref=f34e94]:
+        - list [ref=f34e95]:
+          - listitem [ref=f34e96]:
+            - link "Профилактика и гигиена Два приёма в год, по часу каждый, у гигиениста, который уже знает вашу историю." [ref=f34e97] [cursor=pointer]:
+              - /url: /services/profilaktika
+              - generic [ref=f34e98]:
+                - generic [ref=f34e99]: Профилактика и гигиена
+                - generic [ref=f34e100]: Два приёма в год, по часу каждый, у гигиениста, который уже знает вашу историю.
+              - generic [ref=f34e101]: →
+          - listitem [ref=f34e102]:
+            - link "Имплантация зубов Титановый корень, керамическая коронка и план, который считается с тем объёмом кости, что у вас есть." [ref=f34e103] [cursor=pointer]:
+              - /url: /services/implantaciya
+              - generic [ref=f34e104]:
+                - generic [ref=f34e105]: Имплантация зубов
+                - generic [ref=f34e106]: Титановый корень, керамическая коронка и план, который считается с тем объёмом кости, что у вас есть.
+              - generic [ref=f34e107]: →
+          - listitem [ref=f34e108]:
+            - link "Элайнеры Исправление прикуса для взрослых, которым не хочется два года ходить в брекетах." [ref=f34e109] [cursor=pointer]:
+              - /url: /services/elayneri
+              - generic [ref=f34e110]:
+                - generic [ref=f34e111]: Элайнеры
+                - generic [ref=f34e112]: Исправление прикуса для взрослых, которым не хочется два года ходить в брекетах.
+              - generic [ref=f34e113]: →
+          - listitem [ref=f34e114]:
+            - link "Эстетическая стоматология Виниры, реставрация композитом и отбеливание с расчётом снять как можно меньше эмали." [ref=f34e115] [cursor=pointer]:
+              - /url: /services/estetika
+              - generic [ref=f34e116]:
+                - generic [ref=f34e117]: Эстетическая стоматология
+                - generic [ref=f34e118]: Виниры, реставрация композитом и отбеливание с расчётом снять как можно меньше эмали.
+              - generic [ref=f34e119]: →
+          - listitem [ref=f34e120]:
+            - link "Лечение и реставрация Пломбы, коронки, мостовидные протезы и лечение каналов оставляют зуб в работе." [ref=f34e121] [cursor=pointer]:
+              - /url: /services/lechenie
+              - generic [ref=f34e122]:
+                - generic [ref=f34e123]: Лечение и реставрация
+                - generic [ref=f34e124]: Пломбы, коронки, мостовидные протезы и лечение каналов оставляют зуб в работе.
+              - generic [ref=f34e125]: →
+          - listitem [ref=f34e126]:
+            - link "Седация и комфорт Для тех, кто откладывал это годами. Здесь об этом никто не скажет ни слова." [ref=f34e127] [cursor=pointer]:
+              - /url: /services/sedaciya
+              - generic [ref=f34e128]:
+                - generic [ref=f34e129]: Седация и комфорт
+                - generic [ref=f34e130]: Для тех, кто откладывал это годами. Здесь об этом никто не скажет ни слова.
+              - generic [ref=f34e131]: →
+        - generic [ref=f34e133]:
+          - img "Лоток с инструментами для гигиены на столе у окна" [ref=f34e137]
+          - paragraph [ref=f34e153]: Профилактика и гигиена
+    - generic [ref=f34e154]:
+      - generic [ref=f34e156]:
+        - generic [ref=f34e157]: Метод
+        - generic [ref=f34e159]:
+          - heading "Техника интересна только тем, что она убирает." [level=2] [ref=f34e161]
+          - paragraph [ref=f34e163]: "Каждый пункт здесь избавляет приём от чего-то неприятного: от повторного приёма, от полного рта слепочной массы, от догадки."
+      - img "Наконечники и инструменты на консоли стоматологической установки" [ref=f34e166]
+      - generic [ref=f34e167]:
+        - list [ref=f34e168]:
+          - listitem [ref=f34e169]:
+            - heading "КЛКТ" [level=3] [ref=f34e170]
+            - paragraph [ref=f34e171]: Трёхмерный снимок делается до того, как названа цена импланта. План строится по вашей кости, а не по той, что бывает у большинства.
+          - listitem [ref=f34e172]:
+            - heading "Внутриротовое сканирование" [level=3] [ref=f34e173]
+            - paragraph [ref=f34e174]: Тридцать секунд сканирования вместо ложки со слепочной массой. Без рвотного рефлекса, а на выходе получается файл, который можно отправить вам на почту.
+          - listitem [ref=f34e175]:
+            - heading "Керамика за один приём" [level=3] [ref=f34e176]
+            - paragraph [ref=f34e177]: Коронку моделируют и вытачивают здесь же, примерно за час. В большинстве случаев временная коронка на две недели просто не нужна.
+          - listitem [ref=f34e178]:
+            - heading "Работа под увеличением" [level=3] [ref=f34e179]
+            - paragraph [ref=f34e180]: С каналами и краями коронок работаем при увеличении от 4× и выше. Разница между реставрацией на пять лет и реставрацией на пятнадцать по большей части видна только на таком увеличении.
+          - listitem [ref=f34e181]:
+            - heading "Снимки и карта принадлежат вам" [level=3] [ref=f34e182]
+            - paragraph [ref=f34e183]: Сканы, снимки и записи в карте остаются вашими. Попросите, и мы отправим их в тот же день, в формате, который откроет любая другая клиника.
+        - paragraph [ref=f34e185]: Для больничного отделения всё это обычное дело. Необычно оно для клиники на три кресла. В этом и смысл.
+    - generic [ref=f34e186]:
+      - generic [ref=f34e187]:
+        - generic [ref=f34e188]: Врачи
+        - generic [ref=f34e190]:
+          - heading "Пять человек, и каждый раз вы видите тех же самых." [level=2] [ref=f34e192]
+          - paragraph [ref=f34e194]: Постоянство это тихое преимущество маленькой клиники. Тот, кто сравнивает ваши дёсны с прошлогодними, был в кабинете и в прошлом году.
+      - generic [ref=f34e195]:
+        - article [ref=f34e196]:
+          - img "Осипова Анна Ильинична" [ref=f34e198]
+          - heading "Осипова Анна Ильинична" [level=3] [ref=f34e199]
+          - paragraph [ref=f34e200]: Основатель · стоматолог-ортопед, имплантолог
+          - paragraph [ref=f34e201]: Открыла клинику в 2011 году после девяти лет в сетевой практике на потоке, во многом в ответ на неё.
+        - article [ref=f34e202]:
+          - img "Марченко Илья Сергеевич" [ref=f34e204]
+          - heading "Марченко Илья Сергеевич" [level=3] [ref=f34e205]
+          - paragraph [ref=f34e206]: Стоматолог-хирург, пародонтолог
+          - paragraph [ref=f34e207]: "Ведёт хирургию: удаления, костную пластику и пародонтит, который перестал отвечать на чистки."
+        - article [ref=f34e208]:
+          - img "Хайдарова Нурия Ринатовна" [ref=f34e210]
+          - heading "Хайдарова Нурия Ринатовна" [level=3] [ref=f34e211]
+          - paragraph [ref=f34e212]: Врач-ортодонт
+          - paragraph [ref=f34e213]: Ведёт направление элайнеров и прямо говорит, каких случаев они не исправят.
+        - article [ref=f34e214]:
+          - img "Рагозина Полина Андреевна" [ref=f34e216]
+          - heading "Рагозина Полина Андреевна" [level=3] [ref=f34e217]
+          - paragraph [ref=f34e218]: Старший гигиенист
+          - paragraph [ref=f34e219]: Осматривала наших пациентов чаще, чем кто-либо другой в клинике.
+        - article [ref=f34e220]:
+          - img "Уварова Евгения Викторовна" [ref=f34e222]
+          - heading "Уварова Евгения Викторовна" [level=3] [ref=f34e223]
+          - paragraph [ref=f34e224]: Управляющая клиникой
+          - paragraph [ref=f34e225]: Человек, который называет настоящую сумму до того, как вы на что-то согласитесь.
+        - generic [ref=f34e227]:
+          - paragraph [ref=f34e228]: Подробные биографии, история клиники и фотографии здания собраны на странице о клинике.
+          - link [ref=f34e230] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=f34e232]:
+              - text: О клинике
+              - generic [ref=f34e233]: →
+    - generic [ref=f34e235]:
+      - generic [ref=f34e236]:
+        - generic [ref=f34e237]: Приём
+        - generic [ref=f34e239]:
+          - heading "Полтора часа, и ничего не делается без вашего согласия." [level=2] [ref=f34e241]
+          - paragraph [ref=f34e243]: Первичная консультация длиннее обычного приёма, потому что состоит в основном из разговора. Мы собираем анамнез, осматриваем всё и объясняем, что нашли. Если нужно лечение, его назначают на другой день, чтобы вы успели уйти, подумать и решить, а не решали в кресле.
+      - list [ref=f34e244]:
+        - listitem [ref=f34e245]:
+          - text: "01"
+          - heading "До приёма" [level=3] [ref=f34e246]
+          - paragraph [ref=f34e247]: Бланки приходят на почту сразу после записи. Если заполнить их дома, эти пятнадцать минут останутся осмотру. Парковка бесплатная, во дворе дома.
+        - listitem [ref=f34e248]:
+          - text: "02"
+          - heading "Что взять с собой" [level=3] [ref=f34e249]
+          - paragraph [ref=f34e250]: Паспорт, полис ДМС, список лекарств с дозировками и снимки из других клиник за последние два года. Если вам делали операцию на челюсти или вы принимаете препараты, разжижающие кровь, скажите об этом при записи.
+        - listitem [ref=f34e251]:
+          - text: "03"
+          - heading "В кабинете" [level=3] [ref=f34e252]
+          - paragraph [ref=f34e253]: "Полный осмотр: зубы, старые пломбы и коронки, дёсны, прикус, слизистая. Онкоскрининг входит сюда же. Если подошёл срок, делаем цифровые снимки. Всё, что видим мы, вы видите на экране рядом с креслом."
+        - listitem [ref=f34e254]:
+          - text: "04"
+          - heading "Перед уходом" [level=3] [ref=f34e255]
+          - paragraph [ref=f34e256]: "План лечения на бумаге: со сметой, с расчётом по ДМС и с честной пометкой, что нужно делать сейчас, что подождёт, а что разумнее не трогать вовсе."
+      - generic [ref=f34e257]:
+        - heading "ДМС-партнёры" [level=3] [ref=f34e259]
+        - generic [ref=f34e260]:
+          - list [ref=f34e261]:
+            - listitem [ref=f34e262]: СОГАЗ
+            - listitem [ref=f34e263]: «Ингосстрах»
+            - listitem [ref=f34e264]: «РЕСО-Гарантия»
+            - listitem [ref=f34e265]: «АльфаСтрахование»
+            - listitem [ref=f34e266]: «Ренессанс Страхование»
+            - listitem [ref=f34e267]: «Согласие»
+            - listitem [ref=f34e268]: «Росгосстрах»
+            - listitem [ref=f34e269]: ВСК
+          - paragraph [ref=f34e270]: С этими компаниями мы работаем напрямую. С остальными нужно гарантийное письмо, и документы для страховой мы готовим сами. Смету согласуем со страховой до приёма, а не после него, поэтому цифра в плане и есть та, которую вы платите.
+          - link [ref=f34e272] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=f34e274]:
+              - text: Бланки, оплата и вопросы
+              - generic [ref=f34e275]: →
+    - generic [ref=f34e276]:
+      - generic [ref=f34e277]:
+        - generic [ref=f34e278]: Отзывы
+        - heading "Что говорят те, кто ходит сюда не первый год." [level=2] [ref=f34e282]
+      - list [ref=f34e283]:
+        - listitem [ref=f34e284]:
+          - figure "Марина Д./Пациентка с 2022 года" [ref=f34e285]:
+            - blockquote [ref=f34e286]: «Я одиннадцать лет не была у стоматолога и шла за выговором. Получила разговор, план на бумаге и запись через три недели, чтобы наконец начать лечиться.»
+        - listitem [ref=f34e288]:
+          - figure "Кирилл А./Пациент с 2019 года" [ref=f34e289]:
+            - blockquote [ref=f34e290]: «В двух клиниках мне сказали, что зуб только удалять. Анна Ильинична его восстановила. Это было четыре года назад, я на нём жую до сих пор.»
+        - listitem [ref=f34e292]:
+          - figure "Елена В./Пациентка с 2021 года" [ref=f34e293]:
+            - blockquote [ref=f34e294]: «Смета, которую составила Евгения Викторовна, разошлась с итоговым чеком на 300 ₽. После прошлой клиники ради одного этого стоило перейти.»
+  - contentinfo [ref=f34e296]:
+    - generic [ref=f34e298]:
+      - generic [ref=f34e299]: Запись на приём
+      - generic [ref=f34e301]:
+        - heading "Первичная консультация это разговор, и больше ничего." [level=2] [ref=f34e303]
+        - generic [ref=f34e304]:
+          - paragraph [ref=f34e305]: Полтора часа, полный осмотр и письменный план, который вы забираете с собой и обдумываете без спешки. На лечение в тот же день не записываем, если вы сами не попросите.
+          - generic [ref=f34e306]:
+            - link [ref=f34e307] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=f34e309]:
+                - text: Записаться
+                - generic [ref=f34e310]: →
+            - link "+7 (495) 120-14-80" [ref=f34e311] [cursor=pointer]:
+              - /url: tel:+74951201480
+    - generic [ref=f34e314]:
+      - generic [ref=f34e315]:
+        - generic [ref=f34e316]:
+          - generic [ref=f34e317]: ПОКРОВКА
+          - paragraph [ref=f34e320]: Лечение, реставрация и имплантация зубов. Принимаем на Покровке с 2011 года.
+          - generic [ref=f34e321]: Покровский бульвар, 8строение 1, офис 3Москва, 109028
+          - generic [ref=f34e322]:
+            - link "+7 (495) 120-14-80" [ref=f34e323] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - link "info@pokrovka-clinic.ru" [ref=f34e324] [cursor=pointer]:
+              - /url: mailto:info@pokrovka-clinic.ru
+        - generic [ref=f34e325]:
+          - heading "Услуги" [level=2] [ref=f34e326]
+          - list [ref=f34e327]:
+            - listitem [ref=f34e328]:
+              - link "Профилактика и гигиена" [ref=f34e329] [cursor=pointer]:
+                - /url: /services/profilaktika
+            - listitem [ref=f34e330]:
+              - link "Имплантация зубов" [ref=f34e331] [cursor=pointer]:
+                - /url: /services/implantaciya
+            - listitem [ref=f34e332]:
+              - link "Элайнеры" [ref=f34e333] [cursor=pointer]:
+                - /url: /services/elayneri
+            - listitem [ref=f34e334]:
+              - link "Эстетическая стоматология" [ref=f34e335] [cursor=pointer]:
+                - /url: /services/estetika
+            - listitem [ref=f34e336]:
+              - link "Лечение и реставрация" [ref=f34e337] [cursor=pointer]:
+                - /url: /services/lechenie
+            - listitem [ref=f34e338]:
+              - link "Седация и комфорт" [ref=f34e339] [cursor=pointer]:
+                - /url: /services/sedaciya
+        - generic [ref=f34e340]:
+          - heading "Клиника" [level=2] [ref=f34e341]
+          - list [ref=f34e342]:
+            - listitem [ref=f34e343]:
+              - link "О клинике" [ref=f34e344] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f34e345]:
+              - link "Новым пациентам" [ref=f34e346] [cursor=pointer]:
+                - /url: /patients
+            - listitem [ref=f34e347]:
+              - link "ДМС и оплата" [ref=f34e348] [cursor=pointer]:
+                - /url: /patients#insurance
+            - listitem [ref=f34e349]:
+              - link "Контакты и проезд" [ref=f34e350] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f34e351]:
+          - heading "Часы" [level=2] [ref=f34e352]
+          - generic [ref=f34e353]:
+            - generic [ref=f34e354]:
+              - term [ref=f34e355]: Понедельник-четверг
+              - definition [ref=f34e356]: 9:00-20:00
+            - generic [ref=f34e357]:
+              - term [ref=f34e358]: Пятница
+              - definition [ref=f34e359]: 9:00-18:00
+            - generic [ref=f34e360]:
+              - term [ref=f34e361]: Суббота
+              - definition [ref=f34e362]: По записи
+            - generic [ref=f34e363]:
+              - term [ref=f34e364]: Воскресенье
+              - definition [ref=f34e365]: Выходной
+          - paragraph [ref=f34e366]:
+            - text: "В нерабочие часы отвечает дежурный врач:"
+            - link "+7 (495) 120-14-81" [ref=f34e367] [cursor=pointer]:
+              - /url: tel:+74951201481
+      - generic [ref=f34e368]:
+        - paragraph [ref=f34e369]: © 2011-2026 ООО «Покровка Дентал»
+        - generic [ref=f34e370]:
+          - link "Telegram" [ref=f34e371] [cursor=pointer]:
+            - /url: https://t.me
+          - link "ВКонтакте" [ref=f34e372] [cursor=pointer]:
+            - /url: https://vk.com
+          - link "Яндекс Карты" [ref=f34e373] [cursor=pointer]:
+            - /url: https://yandex.ru/maps
+      - paragraph [ref=f34e374]: "Демонстрационный сайт. Стоматологическая студия «Покровка» не существует: название, адрес, номера телефонов, врачи и отзывы пациентов придуманы. Политика конфиденциальности, пользовательское соглашение, доступность в демоверсию не входят."
+  - button "Open Next.js Dev Tools" [ref=f34e380] [cursor=pointer]

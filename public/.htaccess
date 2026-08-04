@@ -1,0 +1,65 @@
+# Стоматология «Покровка» — конфигурация Apache для общего хостинга (reg.ru).
+#
+# Файл лежит в public/ и попадает в out/ при сборке. Загружается вместе с
+# остальными файлами в public_html. Каждый блок обёрнут в <IfModule>: если
+# модуля на хостинге нет, сайт просто работает без этой оптимизации.
+
+# Страница, которой на сайте нет. 404.html собирается Next.js.
+ErrorDocument 404 /404.html
+
+# Список файлов вместо страницы показывать не нужно.
+Options -Indexes
+
+<IfModule mod_headers.c>
+  # Скрипты и стили Next.js собирает в /_next/static/ с хэшем в имени файла,
+  # поэтому их можно держать в кэше сколько угодно: после пересборки у файла
+  # будет другое имя, а старое никто не запросит. Правило рассчитано на это:
+  # если положить в public/ обычный script.js, он тоже закэшируется на год.
+  <FilesMatch "\.(js|mjs|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # HTML — наоборот: имя постоянное, содержимое меняется с каждой правкой.
+  # Браузер обязан спросить сервер, не устарела ли страница. Рядом лежат .txt:
+  # это данные, которые роутер Next.js забирает при переходе между страницами
+  # без перезагрузки. Имена у них тоже постоянные, кэшировать их надолго
+  # нельзя — устаревший ответ ломает переходы после следующей сборки.
+  <FilesMatch "\.(html|txt)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # Шрифты и изображения вне /_next/ живут неделю: обновляются редко,
+  # но имя у них постоянное, поэтому не «навсегда».
+  <FilesMatch "\.(woff2?|ttf|otf|svg|png|jpe?g|webp|avif|ico)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  # Сжимается всё текстовое. text/javascript указан рядом с
+  # application/javascript не для полноты: именно этот тип Apache ставит файлам
+  # .js, и без него самая тяжёлая часть сайта поехала бы на хостинг несжатой.
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE text/javascript application/javascript
+  AddOutputFilterByType DEFLATE application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType font/woff2 .woff2
+  AddType image/svg+xml .svg
+  AddCharset UTF-8 .html .css .js .json .svg .txt
+</IfModule>
+
+# Переезд на https. Раскомментировать ПОСЛЕ того, как в панели reg.ru выпущен
+# и установлен SSL-сертификат: без сертификата это правило уводит посетителя
+# на адрес, который не открывается.
+#
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{HTTPS} !=on
+#   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+#   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# </IfModule>

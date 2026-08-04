@@ -1,0 +1,285 @@
+- generic [active] [ref=f37e1]:
+  - link "Перейти к содержимому" [ref=f37e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f37e3]:
+    - generic [ref=f37e4]:
+      - link "Стоматологическая студия «Покровка», на главную" [ref=f37e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f37e6]:
+          - generic [ref=f37e7]: ПОКРОВКА
+          - generic [ref=f37e8]: Стоматологическая студия
+      - navigation "Основная навигация" [ref=f37e9]:
+        - generic [ref=f37e10]:
+          - link "Услуги" [ref=f37e11] [cursor=pointer]:
+            - /url: /services/
+          - generic:
+            - list:
+              - listitem:
+                - link "Профилактика и гигиена":
+                  - /url: /services/profilaktika/
+              - listitem:
+                - link "Имплантация зубов":
+                  - /url: /services/implantaciya/
+              - listitem:
+                - link "Элайнеры":
+                  - /url: /services/elayneri/
+              - listitem:
+                - link "Эстетическая стоматология":
+                  - /url: /services/estetika/
+              - listitem:
+                - link "Лечение и реставрация":
+                  - /url: /services/lechenie/
+              - listitem:
+                - link "Седация и комфорт":
+                  - /url: /services/sedaciya/
+              - listitem:
+                - link "Все услуги →":
+                  - /url: /services/
+        - link "О клинике" [ref=f37e13] [cursor=pointer]:
+          - /url: /about/
+        - link "Пациентам" [ref=f37e15] [cursor=pointer]:
+          - /url: /patients/
+        - link "Контакты" [ref=f37e17] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=f37e18]:
+        - link "+7 (495) 120-14-80" [ref=f37e19] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - link "Записаться" [ref=f37e20] [cursor=pointer]:
+          - /url: /contact/
+  - main [ref=f37e22]:
+    - generic [ref=f37e23]:
+      - generic [ref=f37e24]: Контакты
+      - heading "Запись на приём." [level=1] [ref=f37e27]
+      - paragraph [ref=f37e29]:
+        - text: "Отправьте заявку. Ответим в тот же рабочий день. Это ещё не запись: мы предложим время, и в расписание оно попадёт только после вашего согласия. Если болит сегодня, позвоните"
+        - link "+7 (495) 120-14-80" [ref=f37e30] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - text: ", так будет быстрее, чем писать."
+    - generic [ref=f37e32]:
+      - region [ref=f37e33]:
+        - generic [ref=f37e35]: Ваша заявка
+        - heading "Опишите, с чем идёте, и мы подберём время под задачу." [level=2] [ref=f37e38]
+        - paragraph [ref=f37e40]: "Чем подробнее вы напишете, тем точнее мы подберём время нужной длины. Ни к чему это не обязывает: когда мы ответим, всё ещё можно будет изменить."
+        - generic [ref=f37e42]:
+          - generic [ref=f37e43]:
+            - generic [ref=f37e44]:
+              - generic [ref=f37e45]:
+                - text: Имя *
+                - generic [ref=f37e46]: (обязательное поле)
+              - textbox "Имя (обязательное поле)" [ref=f37e48]
+            - generic [ref=f37e49]:
+              - generic [ref=f37e50]: Электронная почта
+              - textbox "Электронная почта" [ref=f37e52]
+              - paragraph [ref=f37e53]: Не обязательно, но пригодится, если нужно прислать план или смету.
+            - generic [ref=f37e54]:
+              - generic [ref=f37e55]:
+                - text: Телефон *
+                - generic [ref=f37e56]: (обязательное поле)
+              - textbox "Телефон (обязательное поле)" [ref=f37e58]
+              - paragraph [ref=f37e59]: Самый быстрый способ согласовать время.
+            - generic [ref=f37e60]:
+              - generic [ref=f37e61]: С чем вы обращаетесь?
+              - generic [ref=f37e63]:
+                - combobox "С чем вы обращаетесь?" [ref=f37e64]:
+                  - option "Выберите" [selected]
+                  - option "Профилактика и гигиена"
+                  - option "Имплантация зубов"
+                  - option "Элайнеры"
+                  - option "Эстетическая стоматология"
+                  - option "Лечение и реставрация"
+                  - option "Седация и комфорт"
+                  - option "Гигиена или осмотр"
+                  - option "Пока не знаю"
+                - generic: ↓
+            - generic [ref=f37e65]:
+              - generic [ref=f37e66]: Вы уже были у нас?
+              - generic [ref=f37e68]:
+                - combobox "Вы уже были у нас?" [ref=f37e69]:
+                  - option "Выберите" [selected]
+                  - option "Да, уже наблюдаюсь у вас"
+                  - option "Нет, это будет первый визит"
+                - generic: ↓
+            - generic [ref=f37e70]:
+              - generic [ref=f37e71]: Удобное время
+              - textbox "Удобное время" [ref=f37e73]
+              - paragraph [ref=f37e74]: "Например: будни до обеда или что угодно после 17:00."
+            - generic [ref=f37e75]:
+              - generic [ref=f37e76]: Сообщение
+              - textbox "Сообщение" [ref=f37e78]
+              - paragraph [ref=f37e79]: "Всё, что поможет подготовиться: что беспокоит, как давно это длится и чего вы не хотели бы на первом приёме."
+            - generic [ref=f37e80]:
+              - checkbox "Да, можно писать мне в СМС об этой заявке и о времени приёма. Ничего другого мы не пришлём, а по первой просьбе перестанем писать совсем." [ref=f37e81]
+              - generic [ref=f37e82]: Да, можно писать мне в СМС об этой заявке и о времени приёма. Ничего другого мы не пришлём, а по первой просьбе перестанем писать совсем.
+          - generic [ref=f37e83]:
+            - button [ref=f37e84]:
+              - generic [ref=f37e86]:
+                - text: Отправить заявку
+                - generic [ref=f37e87]: →
+            - paragraph [ref=f37e88]:
+              - text: "Поля со звёздочкой обязательны. На самом деле ничего никуда не отправляется: это демонстрационный сайт, сервера за формой нет. Заявка проверяется в браузере и дальше не уходит. Чтобы записаться по-настоящему, позвоните"
+              - link "+7 (495) 120-14-80" [ref=f37e89] [cursor=pointer]:
+                - /url: tel:+74951201480
+              - text: или напишите на
+              - link "info@pokrovka-clinic.ru" [ref=f37e90] [cursor=pointer]:
+                - /url: mailto:info@pokrovka-clinic.ru
+              - text: .
+      - complementary [ref=f37e91]:
+        - heading "Практическая информация" [level=3] [ref=f37e94]
+        - generic [ref=f37e96]:
+          - heading "Если острая боль" [level=3] [ref=f37e97]
+          - link "+7 (495) 120-14-81" [ref=f37e98] [cursor=pointer]:
+            - /url: tel:+74951201481
+          - paragraph [ref=f37e99]: Отвечает дежурный врач в нерабочие часы. Если боль сильная, идёт кровь или выбит зуб, звоните, а не пишите на почту.
+        - generic [ref=f37e101]:
+          - heading "Где мы находимся" [level=3] [ref=f37e102]
+          - generic [ref=f37e103]: Покровский бульвар, 8строение 1, офис 3Москва, 109028
+          - generic [ref=f37e104]:
+            - link "+7 (495) 120-14-80" [ref=f37e105] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - link "info@pokrovka-clinic.ru" [ref=f37e106] [cursor=pointer]:
+              - /url: mailto:info@pokrovka-clinic.ru
+          - link [ref=f37e108] [cursor=pointer]:
+            - /url: https://yandex.ru/maps/?text=Москва, Покровский бульвар, 8
+            - generic [ref=f37e110]:
+              - text: Открыть в Яндекс Картах
+              - generic [ref=f37e111]: →
+        - generic [ref=f37e112]:
+          - img "Светлый сводчатый коридор с аркой на входе в клинику" [ref=f37e114]
+          - paragraph [ref=f37e115]: Вход с бульвара · строение 1, офис 3
+        - generic [ref=f37e117]:
+          - heading "Часы работы" [level=3] [ref=f37e118]
+          - generic [ref=f37e119]:
+            - generic [ref=f37e120]:
+              - term [ref=f37e121]: Понедельник-четверг
+              - definition [ref=f37e122]: 9:00-20:00
+            - generic [ref=f37e123]:
+              - term [ref=f37e124]: Пятница
+              - definition [ref=f37e125]: 9:00-18:00
+            - generic [ref=f37e126]:
+              - term [ref=f37e127]: Суббота
+              - definition [ref=f37e128]: По записи
+            - generic [ref=f37e129]:
+              - term [ref=f37e130]: Воскресенье
+              - definition [ref=f37e131]: Выходной
+          - paragraph [ref=f37e132]: Телефон отвечает с 8:45. Всё, что пришло за ночь, разбираем с утра.
+        - generic [ref=f37e134]:
+          - heading "Как добраться" [level=3] [ref=f37e135]
+          - link "Открыть Покровский бульвар, 8, Москва в Яндекс Картах. Откроется в новой вкладке." [ref=f37e137] [cursor=pointer]:
+            - /url: https://yandex.ru/maps/?text=Москва, Покровский бульвар, 8
+            - generic [ref=f37e138]:
+              - generic [ref=f37e175]: ↑ С
+              - generic [ref=f37e176]: Парковка
+              - generic [ref=f37e177]: "8"
+              - generic [ref=f37e178]: Покровский бульвар
+              - generic [ref=f37e179]: Хохловский пер.
+            - generic [ref=f37e180]:
+              - generic [ref=f37e181]: Покровский бульвар, 8
+              - generic [ref=f37e182]:
+                - text: На карте
+                - generic [ref=f37e183]: →
+          - generic [ref=f37e184]:
+            - generic [ref=f37e185]:
+              - term [ref=f37e186]: Метро
+              - definition [ref=f37e187]: м. Чистые пруды, 10 минут пешком
+            - generic [ref=f37e188]:
+              - term [ref=f37e189]: Парковка
+              - definition [ref=f37e190]: Во дворе дома, бесплатно
+            - generic [ref=f37e191]:
+              - term [ref=f37e192]: Вход
+              - definition [ref=f37e193]: Без ступеней, со стороны двора
+            - generic [ref=f37e194]:
+              - term [ref=f37e195]: На машине
+              - definition [ref=f37e196]: 10 минут от Садового кольца
+          - paragraph [ref=f37e197]: Если нужен кабинет, куда можно заехать на коляске, скажите при записи. Поставим приём именно в него.
+  - contentinfo [ref=f37e198]:
+    - generic [ref=f37e200]:
+      - generic [ref=f37e201]: Запись на приём
+      - generic [ref=f37e203]:
+        - heading "Первичная консультация это разговор, и больше ничего." [level=2] [ref=f37e205]
+        - generic [ref=f37e206]:
+          - paragraph [ref=f37e207]: Полтора часа, полный осмотр и письменный план, который вы забираете с собой и обдумываете без спешки. На лечение в тот же день не записываем, если вы сами не попросите.
+          - generic [ref=f37e208]:
+            - link [ref=f37e209] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=f37e211]:
+                - text: Записаться
+                - generic [ref=f37e212]: →
+            - link "+7 (495) 120-14-80" [ref=f37e213] [cursor=pointer]:
+              - /url: tel:+74951201480
+    - generic [ref=f37e216]:
+      - generic [ref=f37e217]:
+        - generic [ref=f37e218]:
+          - generic [ref=f37e219]: ПОКРОВКА
+          - paragraph [ref=f37e220]: Лечение, реставрация и имплантация зубов. Принимаем на Покровке с 2011 года.
+          - generic [ref=f37e221]: Покровский бульвар, 8строение 1, офис 3Москва, 109028
+          - generic [ref=f37e222]:
+            - link "+7 (495) 120-14-80" [ref=f37e223] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - link "info@pokrovka-clinic.ru" [ref=f37e224] [cursor=pointer]:
+              - /url: mailto:info@pokrovka-clinic.ru
+        - generic [ref=f37e225]:
+          - heading "Услуги" [level=2] [ref=f37e226]
+          - list [ref=f37e227]:
+            - listitem [ref=f37e228]:
+              - link "Профилактика и гигиена" [ref=f37e229] [cursor=pointer]:
+                - /url: /services/profilaktika/
+            - listitem [ref=f37e230]:
+              - link "Имплантация зубов" [ref=f37e231] [cursor=pointer]:
+                - /url: /services/implantaciya/
+            - listitem [ref=f37e232]:
+              - link "Элайнеры" [ref=f37e233] [cursor=pointer]:
+                - /url: /services/elayneri/
+            - listitem [ref=f37e234]:
+              - link "Эстетическая стоматология" [ref=f37e235] [cursor=pointer]:
+                - /url: /services/estetika/
+            - listitem [ref=f37e236]:
+              - link "Лечение и реставрация" [ref=f37e237] [cursor=pointer]:
+                - /url: /services/lechenie/
+            - listitem [ref=f37e238]:
+              - link "Седация и комфорт" [ref=f37e239] [cursor=pointer]:
+                - /url: /services/sedaciya/
+        - generic [ref=f37e240]:
+          - heading "Клиника" [level=2] [ref=f37e241]
+          - list [ref=f37e242]:
+            - listitem [ref=f37e243]:
+              - link "О клинике" [ref=f37e244] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=f37e245]:
+              - link "Новым пациентам" [ref=f37e246] [cursor=pointer]:
+                - /url: /patients/
+            - listitem [ref=f37e247]:
+              - link "ДМС и оплата" [ref=f37e248] [cursor=pointer]:
+                - /url: /patients/#insurance
+            - listitem [ref=f37e249]:
+              - link "Контакты и проезд" [ref=f37e250] [cursor=pointer]:
+                - /url: /contact/
+        - generic [ref=f37e251]:
+          - heading "Часы" [level=2] [ref=f37e252]
+          - generic [ref=f37e253]:
+            - generic [ref=f37e254]:
+              - term [ref=f37e255]: Понедельник-четверг
+              - definition [ref=f37e256]: 9:00-20:00
+            - generic [ref=f37e257]:
+              - term [ref=f37e258]: Пятница
+              - definition [ref=f37e259]: 9:00-18:00
+            - generic [ref=f37e260]:
+              - term [ref=f37e261]: Суббота
+              - definition [ref=f37e262]: По записи
+            - generic [ref=f37e263]:
+              - term [ref=f37e264]: Воскресенье
+              - definition [ref=f37e265]: Выходной
+          - paragraph [ref=f37e266]:
+            - text: "В нерабочие часы отвечает дежурный врач:"
+            - link "+7 (495) 120-14-81" [ref=f37e267] [cursor=pointer]:
+              - /url: tel:+74951201481
+      - generic [ref=f37e268]:
+        - paragraph [ref=f37e269]: © 2011-2026 ООО «Покровка Дентал»
+        - generic [ref=f37e270]:
+          - link "Telegram" [ref=f37e271] [cursor=pointer]:
+            - /url: https://t.me
+          - link "ВКонтакте" [ref=f37e272] [cursor=pointer]:
+            - /url: https://vk.com
+          - link "Яндекс Карты" [ref=f37e273] [cursor=pointer]:
+            - /url: https://yandex.ru/maps
+      - paragraph [ref=f37e274]: "Демонстрационный сайт. Стоматологическая студия «Покровка» не существует: название, адрес, номера телефонов, врачи и отзывы пациентов придуманы. Политика конфиденциальности, пользовательское соглашение, доступность в демоверсию не входят."
+  - alert [ref=f37e275]

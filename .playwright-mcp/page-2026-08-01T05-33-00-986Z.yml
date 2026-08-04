@@ -1,0 +1,286 @@
+- generic [active] [ref=f31e1]:
+  - link "Перейти к содержимому" [ref=f31e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f31e3]:
+    - generic [ref=f31e4]:
+      - link "Стоматологическая студия «Покровка», на главную" [ref=f31e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f31e7]:
+          - generic [ref=f31e8]: ПОКРОВКА
+          - generic [ref=f31e9]: Стоматологическая студия
+      - navigation "Основная навигация" [ref=f31e10]:
+        - generic [ref=f31e11]:
+          - link "Услуги" [ref=f31e12] [cursor=pointer]:
+            - /url: /services
+          - generic:
+            - list:
+              - listitem:
+                - link "Профилактика и гигиена":
+                  - /url: /services/profilaktika
+              - listitem:
+                - link "Имплантация зубов":
+                  - /url: /services/implantaciya
+              - listitem:
+                - link "Элайнеры":
+                  - /url: /services/elayneri
+              - listitem:
+                - link "Эстетическая стоматология":
+                  - /url: /services/estetika
+              - listitem:
+                - link "Лечение и реставрация":
+                  - /url: /services/lechenie
+              - listitem:
+                - link "Седация и комфорт":
+                  - /url: /services/sedaciya
+              - listitem:
+                - link "Все услуги →":
+                  - /url: /services
+        - link "О клинике" [ref=f31e14] [cursor=pointer]:
+          - /url: /about
+        - link "Пациентам" [ref=f31e16] [cursor=pointer]:
+          - /url: /patients
+        - link "Контакты" [ref=f31e18] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f31e19]:
+        - link "+7 (495) 120-14-80" [ref=f31e20] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - link "Записаться" [ref=f31e21] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f31e23]:
+    - generic [ref=f31e24]:
+      - generic [ref=f31e25]: Пациентам
+      - heading "Полтора часа, и ничего не делается без вашего согласия." [level=1] [ref=f31e29]
+      - paragraph [ref=f31e31]: Первичная консультация длиннее обычного приёма, потому что состоит в основном из разговора. Мы собираем анамнез, осматриваем всё и объясняем, что нашли. Если нужно лечение, его назначают на другой день, чтобы вы успели уйти, подумать и решить, а не решали в кресле.
+    - 'img "Зона ожидания: серые кресла под реечным деревянным потолком" [ref=f31e34]'
+    - paragraph [ref=f31e36]: Зона ожидания · Покровский бульвар, 8
+    - generic [ref=f31e37]:
+      - generic [ref=f31e38]:
+        - generic [ref=f31e39]: Первичный приём
+        - generic [ref=f31e42]:
+          - 'heading "Четыре части: от письма до плана, с которым вы уходите." [level=2] [ref=f31e44]'
+          - paragraph [ref=f31e46]: Две из четырёх проходят до того, как вы сядете в кресло. Во многом поэтому все полтора часа в кабинете уходят на осмотр и разговор.
+      - list [ref=f31e47]:
+        - listitem [ref=f31e48]:
+          - generic [ref=f31e49]: "01"
+          - heading "До приёма" [level=3] [ref=f31e50]
+          - paragraph [ref=f31e51]: Бланки приходят на почту сразу после записи. Если заполнить их дома, эти пятнадцать минут останутся осмотру. Парковка бесплатная, во дворе дома.
+        - listitem [ref=f31e52]:
+          - generic [ref=f31e53]: "02"
+          - heading "Что взять с собой" [level=3] [ref=f31e54]
+          - paragraph [ref=f31e55]: Паспорт, полис ДМС, список лекарств с дозировками и снимки из других клиник за последние два года. Если вам делали операцию на челюсти или вы принимаете препараты, разжижающие кровь, скажите об этом при записи.
+        - listitem [ref=f31e56]:
+          - generic [ref=f31e57]: "03"
+          - heading "В кабинете" [level=3] [ref=f31e58]
+          - paragraph [ref=f31e59]: "Полный осмотр: зубы, старые пломбы и коронки, дёсны, прикус, слизистая. Онкоскрининг входит сюда же. Если подошёл срок, делаем цифровые снимки. Всё, что видим мы, вы видите на экране рядом с креслом."
+        - listitem [ref=f31e60]:
+          - generic [ref=f31e61]: "04"
+          - heading "Перед уходом" [level=3] [ref=f31e62]
+          - paragraph [ref=f31e63]: "План лечения на бумаге: со сметой, с расчётом по ДМС и с честной пометкой, что нужно делать сейчас, что подождёт, а что разумнее не трогать вовсе."
+    - generic [ref=f31e64]:
+      - generic [ref=f31e65]:
+        - generic [ref=f31e66]: Бланки
+        - generic [ref=f31e69]:
+          - heading "Четыре бланка приходят на почту сразу после записи." [level=2] [ref=f31e71]
+          - paragraph [ref=f31e73]: Заполнение занимает минут пятнадцать, и дома они не съедают время приёма. Среди бланков есть согласие на обработку персональных данных по 152-ФЗ. Если удобнее от руки, распечатайте и принесите с собой.
+      - list [ref=f31e74]:
+        - listitem [ref=f31e75]:
+          - generic [ref=f31e76]:
+            - generic [ref=f31e77]: Регистрационная анкета
+            - generic [ref=f31e78]: PDF · 2 страницы · 148 КБ
+        - listitem [ref=f31e79]:
+          - generic [ref=f31e80]:
+            - generic [ref=f31e81]: Анкета о здоровье
+            - generic [ref=f31e82]: PDF · 3 страницы · 210 КБ
+        - listitem [ref=f31e83]:
+          - generic [ref=f31e84]:
+            - generic [ref=f31e85]: Согласие на обработку персональных данных
+            - generic [ref=f31e86]: PDF · 1 страница · 96 КБ
+        - listitem [ref=f31e87]:
+          - generic [ref=f31e88]:
+            - generic [ref=f31e89]: Положение об оплате
+            - generic [ref=f31e90]: PDF · 2 страницы · 132 КБ
+      - paragraph [ref=f31e92]: "Сайт демонстрационный: сами файлы к нему не подключены. На рабочем сайте эти четыре бланка уходили бы вам на почту сразу после записи."
+    - generic [ref=f31e94]:
+      - generic [ref=f31e95]:
+        - generic [ref=f31e96]: ДМС
+        - generic [ref=f31e99]:
+          - heading "Напрямую работаем с 8 страховыми компаниями." [level=2] [ref=f31e101]
+          - paragraph [ref=f31e103]: С этими компаниями мы работаем напрямую. С остальными нужно гарантийное письмо, и документы для страховой мы готовим сами. Смету согласуем со страховой до приёма, а не после него, поэтому цифра в плане и есть та, которую вы платите.
+      - list [ref=f31e104]:
+        - listitem [ref=f31e105]: СОГАЗ
+        - listitem [ref=f31e106]: «Ингосстрах»
+        - listitem [ref=f31e107]: «РЕСО-Гарантия»
+        - listitem [ref=f31e108]: «АльфаСтрахование»
+        - listitem [ref=f31e109]: «Ренессанс Страхование»
+        - listitem [ref=f31e110]: «Согласие»
+        - listitem [ref=f31e111]: «Росгосстрах»
+        - listitem [ref=f31e112]: ВСК
+      - generic [ref=f31e113]:
+        - generic [ref=f31e114]:
+          - heading "Как идут расчёты" [level=3] [ref=f31e115]
+          - paragraph [ref=f31e116]: Евгения Викторовна проверяет покрытие до приёма, подаёт документы после и спорит со страховой, если пришёл отказ. Эта работа остаётся на клинике, а не возвращается вам.
+        - generic [ref=f31e118]:
+          - generic [ref=f31e119]:
+            - term [ref=f31e120]: Согласование
+            - definition [ref=f31e121]: До приёма, а не после
+          - generic [ref=f31e122]:
+            - term [ref=f31e123]: Другие страховые
+            - definition [ref=f31e124]: Документы готовим сами
+          - generic [ref=f31e125]:
+            - term [ref=f31e126]: Смета
+            - definition [ref=f31e127]: Письменно на всё дороже 20 000 ₽
+          - generic [ref=f31e128]:
+            - term [ref=f31e129]: Отказ страховой
+            - definition [ref=f31e130]: Оспариваем сами
+    - generic [ref=f31e131]:
+      - generic [ref=f31e132]:
+        - generic [ref=f31e133]: Оплата
+        - generic [ref=f31e136]:
+          - heading "Пять способов оплатить большой план лечения." [level=2] [ref=f31e138]
+          - paragraph [ref=f31e140]: Все пять указаны в смете сразу, а не достаются потом, чтобы спасти сумму, на которую вы уже сказали «нет».
+      - list [ref=f31e141]:
+        - listitem [ref=f31e142]:
+          - heading "Оплата целиком" [level=3] [ref=f31e143]
+          - paragraph [ref=f31e144]: Скидка 3% на план лечения дороже 50 000 ₽, если оплатить его сразу картой или через СБП.
+        - listitem [ref=f31e145]:
+          - heading "Рассрочка без процентов" [level=3] [ref=f31e146]
+          - paragraph [ref=f31e147]: "План дороже 50 000 ₽ можно разделить на шесть равных платежей. Оформляем в клинике: ни банка, ни заявки на кредит, ни переплаты."
+        - listitem [ref=f31e148]:
+          - heading "Длинная рассрочка" [level=3] [ref=f31e149]
+          - paragraph [ref=f31e150]: Имплантацию и протезирование всей челюсти можно растянуть на 12-36 месяцев в рассрочку банка-партнёра. Евгения Викторовна посчитает платёж вместе с вами до того, как вы подадите заявку.
+        - listitem [ref=f31e151]:
+          - heading "Налоговый вычет 13%" [level=3] [ref=f31e152]
+          - paragraph [ref=f31e153]: Лечение зубов возвращает 13% от суммы. Справку об оплате медицинских услуг, договор и копию лицензии готовим сами. Вам остаётся приложить их к декларации.
+        - listitem [ref=f31e154]:
+          - heading "Абонемент без ДМС" [level=3] [ref=f31e155]
+          - paragraph [ref=f31e156]: "28 000 ₽ в год: две профгигиены, осмотры, снимки и 20% скидки на лечение. Это не страховка, и годового лимита в нём нет."
+      - paragraph [ref=f31e158]:
+        - text: Выбранный вариант расписан в самом плане, рядом с расчётом по ДМС.
+        - link "Попросите посчитать" [ref=f31e159] [cursor=pointer]:
+          - /url: /contact
+        - text: заранее, прежде чем вы на что-то согласитесь.
+    - generic [ref=f31e160]:
+      - generic [ref=f31e161]:
+        - generic [ref=f31e162]: Вопросы
+        - generic [ref=f31e165]:
+          - heading "О чём спрашивают новые пациенты. Коротко и по делу." [level=2] [ref=f31e167]
+          - paragraph [ref=f31e169]: "Если вашего вопроса здесь нет, спросите по телефону: ответ будет тот же, что и в кабинете."
+      - list [ref=f31e170]:
+        - listitem [ref=f31e171]:
+          - group [ref=f31e172]:
+            - heading "За сколько нужно записываться?" [level=3] [ref=f31e174] [cursor=pointer]
+        - listitem [ref=f31e178]:
+          - group [ref=f31e179]:
+            - heading "Что делать, если я не смогу прийти?" [level=3] [ref=f31e181] [cursor=pointer]
+        - listitem [ref=f31e185]:
+          - group [ref=f31e186]:
+            - heading "Вы принимаете детей?" [level=3] [ref=f31e188] [cursor=pointer]
+        - listitem [ref=f31e192]:
+          - group [ref=f31e193]:
+            - heading "Можно прийти с сопровождающим?" [level=3] [ref=f31e195] [cursor=pointer]
+        - listitem [ref=f31e199]:
+          - group [ref=f31e200]:
+            - heading "Скажут ли мне цену до начала лечения?" [level=3] [ref=f31e202] [cursor=pointer]
+        - listitem [ref=f31e206]:
+          - group [ref=f31e207]:
+            - heading "Как у вас с доступной средой?" [level=3] [ref=f31e209] [cursor=pointer]
+      - paragraph [ref=f31e214]:
+        - text: Вопрос, которого здесь нет, можно задать до записи.
+        - link "Напишите нам" [ref=f31e215] [cursor=pointer]:
+          - /url: /contact
+        - text: или позвоните
+        - link "+7 (495) 120-14-80" [ref=f31e216] [cursor=pointer]:
+          - /url: tel:+74951201480
+        - text: ": на такие вопросы отвечает администратор, а не автоответчик."
+  - contentinfo [ref=f31e217]:
+    - generic [ref=f31e219]:
+      - generic [ref=f31e220]: Запись на приём
+      - generic [ref=f31e223]:
+        - heading "Первичная консультация это разговор, и больше ничего." [level=2] [ref=f31e225]
+        - generic [ref=f31e226]:
+          - paragraph [ref=f31e227]: Полтора часа, полный осмотр и письменный план, который вы забираете с собой и обдумываете без спешки. На лечение в тот же день не записываем, если вы сами не попросите.
+          - generic [ref=f31e228]:
+            - link [ref=f31e229] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=f31e231]:
+                - text: Записаться
+                - generic [ref=f31e232]: →
+            - link "+7 (495) 120-14-80" [ref=f31e233] [cursor=pointer]:
+              - /url: tel:+74951201480
+    - generic [ref=f31e236]:
+      - generic [ref=f31e237]:
+        - generic [ref=f31e238]:
+          - generic [ref=f31e239]: ПОКРОВКА
+          - paragraph [ref=f31e242]: Лечение, реставрация и имплантация зубов. Принимаем на Покровке с 2011 года.
+          - generic [ref=f31e243]: Покровский бульвар, 8строение 1, офис 3Москва, 109028
+          - generic [ref=f31e244]:
+            - link "+7 (495) 120-14-80" [ref=f31e245] [cursor=pointer]:
+              - /url: tel:+74951201480
+            - link "info@pokrovka-clinic.ru" [ref=f31e246] [cursor=pointer]:
+              - /url: mailto:info@pokrovka-clinic.ru
+        - generic [ref=f31e247]:
+          - heading "Услуги" [level=2] [ref=f31e248]
+          - list [ref=f31e249]:
+            - listitem [ref=f31e250]:
+              - link "Профилактика и гигиена" [ref=f31e251] [cursor=pointer]:
+                - /url: /services/profilaktika
+            - listitem [ref=f31e252]:
+              - link "Имплантация зубов" [ref=f31e253] [cursor=pointer]:
+                - /url: /services/implantaciya
+            - listitem [ref=f31e254]:
+              - link "Элайнеры" [ref=f31e255] [cursor=pointer]:
+                - /url: /services/elayneri
+            - listitem [ref=f31e256]:
+              - link "Эстетическая стоматология" [ref=f31e257] [cursor=pointer]:
+                - /url: /services/estetika
+            - listitem [ref=f31e258]:
+              - link "Лечение и реставрация" [ref=f31e259] [cursor=pointer]:
+                - /url: /services/lechenie
+            - listitem [ref=f31e260]:
+              - link "Седация и комфорт" [ref=f31e261] [cursor=pointer]:
+                - /url: /services/sedaciya
+        - generic [ref=f31e262]:
+          - heading "Клиника" [level=2] [ref=f31e263]
+          - list [ref=f31e264]:
+            - listitem [ref=f31e265]:
+              - link "О клинике" [ref=f31e266] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f31e267]:
+              - link "Новым пациентам" [ref=f31e268] [cursor=pointer]:
+                - /url: /patients
+            - listitem [ref=f31e269]:
+              - link "ДМС и оплата" [ref=f31e270] [cursor=pointer]:
+                - /url: /patients#insurance
+            - listitem [ref=f31e271]:
+              - link "Контакты и проезд" [ref=f31e272] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f31e273]:
+          - heading "Часы" [level=2] [ref=f31e274]
+          - generic [ref=f31e275]:
+            - generic [ref=f31e276]:
+              - term [ref=f31e277]: Понедельник-четверг
+              - definition [ref=f31e278]: 9:00-20:00
+            - generic [ref=f31e279]:
+              - term [ref=f31e280]: Пятница
+              - definition [ref=f31e281]: 9:00-18:00
+            - generic [ref=f31e282]:
+              - term [ref=f31e283]: Суббота
+              - definition [ref=f31e284]: По записи
+            - generic [ref=f31e285]:
+              - term [ref=f31e286]: Воскресенье
+              - definition [ref=f31e287]: Выходной
+          - paragraph [ref=f31e288]:
+            - text: "В нерабочие часы отвечает дежурный врач:"
+            - link "+7 (495) 120-14-81" [ref=f31e289] [cursor=pointer]:
+              - /url: tel:+74951201481
+      - generic [ref=f31e290]:
+        - paragraph [ref=f31e291]: © 2011-2026 ООО «Покровка Дентал»
+        - generic [ref=f31e292]:
+          - link "Telegram" [ref=f31e293] [cursor=pointer]:
+            - /url: https://t.me
+          - link "ВКонтакте" [ref=f31e294] [cursor=pointer]:
+            - /url: https://vk.com
+          - link "Яндекс Карты" [ref=f31e295] [cursor=pointer]:
+            - /url: https://yandex.ru/maps
+      - paragraph [ref=f31e296]: "Демонстрационный сайт. Стоматологическая студия «Покровка» не существует: название, адрес, номера телефонов, врачи и отзывы пациентов придуманы. Политика конфиденциальности, пользовательское соглашение, доступность в демоверсию не входят."
+  - button "Open Next.js Dev Tools" [ref=f31e302] [cursor=pointer]
